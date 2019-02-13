@@ -1,0 +1,80 @@
+#MainContainer {
+    display:grid;
+    grid-template-rows:repeat(auto-fit, 130px);
+    background-color:#733D56;  
+    
+}
+
+.header {
+    
+    text-align: center;
+    background-color:#733D56;
+   
+}
+
+h1, h2{
+    font-family: Trebuchet MS, Helvetica, sans-serif;
+    color:white;
+}
+.list{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, 200px);
+    color:white;
+    font-family: Trebuchet MS, Helvetica, sans-serif;
+    list-style-type:none;
+    font-size: 30px; 
+    justify-content:space-around;
+    
+}
+
+.list2{
+    list-style-type: none;
+    color:white;
+    text-align: left;
+
+}
+
+
+.content{
+    
+    background-color: #3B2F40;
+}
+
+.Upper_heading{
+    text-align: center;
+}
+
+.box1{
+    
+    background-color: #3B2F40;
+    
+}
+.box2{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, 500px);
+    justify-content: space-around;
+    background-color: #3B2F40;
+    margin-left: 100px;
+}
+.left, .right{
+    display:grid;
+    width:450px;
+    background-color:#120F26;
+}
+
+
+
+.paralax{
+    /* The image used */
+    background-image: url("./Assets/207B3988-48C4-42A3-9D26-D784962EBF64.jpg");
+  
+    /* Set a specific height */
+   min-height: 400px; 
+  
+    /* Create the parallax scrolling effect */
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
